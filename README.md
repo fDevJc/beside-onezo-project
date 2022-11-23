@@ -25,19 +25,35 @@
 - Docker
 - Jenkins
 
-## 5. 인프라
+## 5. 인프라 & CI/CD
 <img src='./infra/infra.png'>
 
 - 프로덕션 서비스 인프라
   - discovery-service
+    - spring cloud eureka server를 활용하여 구현
+    - 각각의 비즈니스 서비스는 discovery client로 server에 등록되어 사용되어짐
+  - config-service
+    - spring cloud config server를 활용하여 구현
   - apigateway-service
+    - spring cloud gateway를 활용하여 구현
+    - JWT 서비스토큰의 유효성 검사 및 Filter를 활용하여 각 서비스를 호출
+
   - auth-service
+    - JWT 서비스토큰의 발행, 갱신, refresh token 관리 등의 역할을 담당
   - user-service
+    - 사용자와 관련된 기능을 담당
   - feed-service
+    - 갓생살기 피드와 관련된 기능을 담당
   - goal-service
+    - 갓생살기 투두리스트와 관련된 기능을 담당
+  - common-service
+    - 이용약관, 공통 코드 등의 공통 기능을 담당
+
 - 백엔드 CI/CD
-  - 젠킨스
-  - 도커
+  - 개발자 -> 깃허브 푸시 -> 깃허브 웹훅 -> 젠킨스 API 호출 -> 젠킨스에 등록된 Pipeline 실행 -> 도커 컨테이너로 배포
+
+- DB
+  - MySQL
 
 ## 6. 담당 업무
 ### 개발반장 역할
@@ -47,8 +63,10 @@
 - 개발 일정, 업무 관리
 ### 백엔드 개발자 역할
 - Naver Cloud Platform 서버 환경 구축
-- MSA 및 CI/CD 환경 구축
-  - 실제 MSA환경을 구축하기위해서는 서버비용이 많이 발생할 수 있어 Docker Container를 활용하여 최대한 MSA 환경을 구성하려고 노력해봤습니다.
+- MSA 환경 구축
+  - 실제 MSA환경을 구축하기위해서는 여러 서버를 활용해야하므로 비용을 줄이고자 Docker Container를 활용하여 최대한 MSA 환경을 구성하려고 노력해봤습니다.
+- CI/CD 환경 구축
+  - [CI/CD 구축기](./infra/CI%2CCD%EA%B5%AC%EC%B6%95.md)
 - 목표 투두 RestfulAPI 설계 및 개발
 - 피드 RestfulAPI 설계 및 개발
 
