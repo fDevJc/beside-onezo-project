@@ -63,10 +63,13 @@
 - 개발 일정, 업무 관리
 ### 백엔드 개발자 역할
 - Naver Cloud Platform 서버 환경 구축
+  - [Docker 설치 정리](./infra/CentOS7_Docker%20%EC%84%A4%EC%B9%98.md)
+  - [MySQL 설치 정리](./infra/CentOS7_MySQL%208%EB%B2%84%EC%A0%84%20%EC%84%A4%EC%B9%98.md)
+  - [MySQL 세팅 정리](./infra/CentOS7_MySQL%20%EC%84%B8%ED%8C%85.md)
 - MSA 환경 구축
-  - 실제 MSA환경을 구축하기위해서는 여러 서버를 활용해야하므로 비용을 줄이고자 Docker Container를 활용하여 최대한 MSA 환경을 구성하려고 노력해봤습니다.
+  - MSA를 구축하기위해 여러 서버를 활용해야하므로 비용을 줄이고자 Docker Container를 활용하여 최대한 MSA 환경을 구성하려고 노력해봤습니다.
 - CI/CD 환경 구축
-  - [CI/CD 구축기](./infra/CI%2CCD%EA%B5%AC%EC%B6%95.md)
+  - [CI/CD 구축 정리](./infra/CI%2CCD%EA%B5%AC%EC%B6%95.md)
 - 목표 투두 RestfulAPI 설계 및 개발
 - 피드 RestfulAPI 설계 및 개발
 
