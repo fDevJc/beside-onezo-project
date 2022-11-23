@@ -26,6 +26,8 @@
 - Jenkins
 
 ## 5. 인프라
+<img src='./infra/infra.png'>
+
 - 프로덕션 서비스 인프라
   - discovery-service
   - apigateway-service
