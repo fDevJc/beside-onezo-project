@@ -70,9 +70,9 @@
   - [MySQL 설치 정리](./infra/CentOS7_MySQL%208%EB%B2%84%EC%A0%84%20%EC%84%A4%EC%B9%98.md)
   - [MySQL 세팅 정리](./infra/CentOS7_MySQL%20%EC%84%B8%ED%8C%85.md)
 - MSA 환경 구축
-  - MSA를 구축하기위해 여러 서버를 활용해야하므로 비용을 줄이고자 <br>
-  Docker Container를 활용하여 최대한 MSA 환경을 구성해봤습니다
+  - 초기 discovery, apigateway, config service 기본 세팅
+  - MSA 환경 구축을 위해 여러 서버를 활용하는 것 대신 Docker Container를 활용하여 최대한 MSA 환경을 구성했습니다
 - CI/CD 환경 구축
   - [CI/CD 구축 정리](./infra/CI%2CCD%EA%B5%AC%EC%B6%95.md)
-- 목표 투두 RestfulAPI 설계 및 개발
-- 피드 RestfulAPI 설계 및 개발
+- 목표 투두 RestfulAPI 설계 및 개발 (goal-service)
+- 피드 RestfulAPI 설계 및 개발 (feed-service)
