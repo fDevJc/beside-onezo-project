@@ -30,26 +30,26 @@
 ## 5. 인프라 & CI/CD
 <img src='./infra/infra.png'>
 
-- 프로덕션 서비스 인프라
-  - discovery-service
+- MSA 서비스
+  - `discovery-service`
     - spring cloud eureka server를 활용하여 구현
     - 각각의 비즈니스 서비스는 discovery client로 server에 등록되어 사용되어짐
-  - config-service
+  - `config-service`
     - spring cloud config server를 활용하여 구현
-  - apigateway-service
+  - `apigateway-service`
     - spring cloud gateway를 활용하여 구현
     - JWT 서비스토큰의 유효성 검사 및 인증, 인가 역할 담당
     - Filter를 활용하여 각 서비스를 호출
 
-  - auth-service
+  - `auth-service`
     - JWT 서비스토큰의 발행, 갱신, refresh token 관리 등의 토큰 생명주기 담당
-  - user-service
+  - `user-service`
     - 사용자와 관련된 기능을 담당
-  - feed-service
+  - `feed-service`
     - 갓생살기 피드와 관련된 기능을 담당
-  - goal-service
+  - `goal-service`
     - 갓생살기 투두리스트와 관련된 기능을 담당
-  - common-service
+  - `common-service`
     - 이용약관, 공통 코드 등의 공통 기능을 담당
 
 - 백엔드 CI/CD
@@ -59,12 +59,13 @@
   - MySQL
 
 ## 6. 담당 업무
-### 개발반장 역할
+### 개발리더 역할
 - 기획자, 개발자간 커뮤니케이션
 - 프론트, 백엔드 개발자간 커뮤니케이션
 - 사용할 기술 스택 정리
-- 개발 일정, 업무 관리
+- 개발 일정, 개별 업무 관리
 ### 백엔드 개발자 역할
+- [BackEnd Code Repository](https://github.com/orgs/live-god-life/repositories)
 - Naver Cloud Platform 서버 환경 구축
   - [Docker 설치 정리](./infra/CentOS7_Docker%20%EC%84%A4%EC%B9%98.md)
   - [MySQL 설치 정리](./infra/CentOS7_MySQL%208%EB%B2%84%EC%A0%84%20%EC%84%A4%EC%B9%98.md)
@@ -74,5 +75,5 @@
   - MSA 환경 구축을 위해 여러 서버를 활용하는 것 대신 Docker Container를 활용하여 최대한 MSA 환경을 구성했습니다
 - CI/CD 환경 구축
   - [CI/CD 구축 정리](./infra/CI%2CCD%EA%B5%AC%EC%B6%95.md)
-- 목표 투두 RestfulAPI 설계 및 개발 (goal-service)
-- 피드 RestfulAPI 설계 및 개발 (feed-service)
+- 투두 데이터 모델링 및 RestfulAPI 설계 및 개발 (goal-service)
+- 피드 데이터 모델링 및 RestfulAPI 설계 및 개발 (feed-service)
