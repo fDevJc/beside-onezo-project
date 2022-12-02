@@ -7,8 +7,18 @@
 꿈을 이루려는 사람들은 **그 리스트를 가져와** 실천할 수 있게 도와주는 앱입니다. <br>
 `기획2, 디자인2, 프론트2, 백엔드2` 8명의 인원이 아이템 도출 및 기획부터 개발까지 사이드프로젝트로 진행했습니다.
 
-## 📅 2. 프로젝트 기간
+### 📅 프로젝트 기간
 - 2022.08 ~ 2022.12 (12월 중순 출시 예정)
+
+### 주요 기능
+- 메인 피드 <br>
+<img src='./intro/feed.png'>
+- Todo <br>
+<img src='./intro/todo.png'>
+- Detail <br>
+<img src='./intro/detail.png'>
+- Todo 추가 <br>
+<img src='./intro/add.png'>
 
 ## 🗣 3. 협업 환경
 - Git
@@ -65,7 +75,7 @@
 - 사용할 기술 스택 정리
 - 개발 일정, 개별 업무 관리
 ### 백엔드 개발자 역할
-- [BackEnd Code Repository](https://github.com/orgs/live-god-life/repositories)
+- [GitHub Repository](https://github.com/live-god-life)
 - Naver Cloud Platform 서버 환경 구축
   - [Docker 설치 정리](./infra/CentOS7_Docker%20%EC%84%A4%EC%B9%98.md)
   - [MySQL 설치 정리](./infra/CentOS7_MySQL%208%EB%B2%84%EC%A0%84%20%EC%84%A4%EC%B9%98.md)
