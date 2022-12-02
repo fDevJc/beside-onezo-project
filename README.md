@@ -10,17 +10,40 @@
 ### 📅 프로젝트 기간
 - 2022.08 ~ 2022.12 (12월 중순 출시 예정)
 
-### 주요 기능
-- 메인 피드 <br>
+### 🔍 주요 기능
+<details>
+<summary><b>메인 피드</b></summary>
+<div markdown="1">
 <img src='./intro/feed.png'>
-- Todo <br>
-<img src='./intro/todo.png'>
-- Detail <br>
-<img src='./intro/detail.png'>
-- Todo 추가 <br>
-<img src='./intro/add.png'>
+</div>
+</details>
+<br/>
 
-## 🗣 3. 협업 환경
+<details>
+<summary><b>Todo</b></summary>
+<div markdown="1">
+<img src='./intro/todo.png'>
+</div>
+</details>
+<br/>
+
+<details>
+<summary><b>Detail</b></summary>
+<div markdown="1">
+<img src='./intro/detail.png'>
+</div>
+</details>
+<br/>
+
+<details>
+<summary><b>Todo 추가</b></summary>
+<div markdown="1">
+<img src='./intro/add.png'>
+</div>
+</details>
+<br/>
+
+## 🗣 2. 협업 환경
 - Git
   - [커밋 컨벤션](./git/%EA%B9%83%EC%BB%A8%EB%B2%A4%EC%85%98.md)
   - [브랜치 전략](./git/%EB%B8%8C%EB%9E%9C%EC%B9%98%EC%A0%84%EB%9E%B5.md)
@@ -28,7 +51,7 @@
 - 커뮤니케이션
   - Slack, Notion, Figma 활용
 
-## 🧑‍💻 4. 백엔드 기술 스택
+## ⭐️ 3. 백엔드 기술 스택
 - Java, Gradle, SpringBoot
 - JPA, QueryDSL
 - MySQL
@@ -37,7 +60,7 @@
 - Docker
 - Jenkins
 
-## 5. 인프라 & CI/CD
+## 🏢 4. 인프라 & CI/CD
 <img src='./infra/infra.png'>
 
 - MSA 서비스
@@ -68,7 +91,7 @@
 - DB
   - MySQL
 
-## 6. 담당 업무
+## 🧑‍💻 5. 담당 업무
 ### 개발리더 역할
 - 기획자, 개발자간 커뮤니케이션
 - 프론트, 백엔드 개발자간 커뮤니케이션
