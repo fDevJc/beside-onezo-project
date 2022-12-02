@@ -12,6 +12,9 @@
 ### 📅 프로젝트 기간
 - 2022.08 ~ 2022.12 (12월 중순 출시 예정)
 
+### ⭐️ 프로젝트 Github
+- [GitHub Repository](https://github.com/live-god-life)
+
 ### 🔍 주요 기능
 <details>
 <summary><b>메인 피드</b></summary>
@@ -100,7 +103,6 @@
 - 사용할 기술 스택 정리
 - 개발 일정, 개별 업무 관리
 ### 백엔드 개발자 역할
-- [GitHub Repository](https://github.com/live-god-life)
 - Naver Cloud Platform 서버 환경 구축
   - [Docker 설치 정리](./infra/CentOS7_Docker%20%EC%84%A4%EC%B9%98.md)
   - [MySQL 설치 정리](./infra/CentOS7_MySQL%208%EB%B2%84%EC%A0%84%20%EC%84%A4%EC%B9%98.md)
